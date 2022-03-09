@@ -1,8 +1,8 @@
 var x = 3;
 var y = 1.1;
-print(x + y);
-print(x * y);
-print((x+y)*(x-y));
+console.log(x + y);
+console.log(x * y);
+console.log((x+y)*(x-y));
 var z = 9;
-print(Math.sqrt(z));
-print(Math.abs(y/x));
+console.log(Math.sqrt(z));
+console.log(Math.abs(y/x));
