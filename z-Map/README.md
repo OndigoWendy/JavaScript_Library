@@ -2,12 +2,12 @@
 
  **Function** | **Syntax** | **Return Value** | **Invalid Case** | **Runtime**
 ---------- |---------- |-----------|----------- | ----------- |
-Create |	map = new Map()	the map		
-Add / Update|	map.set('key', 'val')|	the map object|		O( 1 )
+Create |	map = new Map() |	the map		
+Add / Update|	map.set('key', 'val')|	the map object |		O( 1 )
 Get|	map.get('key') |	the value of key|	return undefined if key not found	|O( 1 )
 Has|	map.has('key')|	true if key match, false if not|	|	O( 1 )
-Delete|	map.delete('key') |	true if removed, false if key did not exist	||	O( 1 )
-Clear|	map.clear()	|undefined|		O( N )
+Delete|	map.delete('key') |	true if removed, false if key did not exist	| |	O( 1 )
+Clear|	map.clear()	|undefined|	|	O( N )
 Size|	map.size|	Number of entries	
 
 ## Instantiate with values
