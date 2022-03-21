@@ -1,3 +1,31 @@
+<table>
+	<thead>
+		<td>
+			<b>SUMMARY</b>
+		</td>
+		<td>
+			<b>SUMMARY</b>
+		</td>
+	</thead>
+	<tr>
+		<td>
+			<img width="289" alt="code-one" src="https://nickpapayiannakis.files.wordpress.com/2015/10/fxn2d3.png">
+		</td>
+		<!-- <td>
+			<img width="306" alt="render-one" src="https://www.tutsmake.com/wp-content/uploads/2019/03/JavaScript-Array-Methods.jpeg">
+		</td> -->
+	</tr>
+	<tr>
+		<td>
+			<img width="381" alt="code-two" src="https://www.tutorialstonight.com/assets/js/javascript-object.webp">
+		</td>
+		<!-- <td>
+			<img width="307" alt="render-two" src="https://res.cloudinary.com/practicaldev/image/fetch/s--DN-mWuTY--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://cdn-images-1.medium.com/max/599/1%2ADOwBN5p5bCJ5ZKKRiKQCgg.png">
+		</td> -->
+	</tr>
+</table>
+
+
 Think of objects as a logical grouping of a bunch of properties. Properties could be some variable that it's storing or some methods that it's using. I also visualize an object as a table. The main difference is that object's "index" need not be numbers and is not necessarily sequenced.
 
 
