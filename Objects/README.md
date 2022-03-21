@@ -22,8 +22,10 @@ Configurable: Indicates whether the property descriptor may be changed and if th
 
 Writable: Indicates whether the value associated with the property may be changed with an assignment operator. Reference
 
-##Iteration
+## Iteration
+
 ```bash
+
 // for-in
 for (const key in object) {
   const value = object[key]
