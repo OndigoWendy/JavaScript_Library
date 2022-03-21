@@ -1,15 +1,23 @@
 # JAVASCRIPT DATA STRUCTURES AND ALGORITHMS
 ***This is not an official Google product.***
 
-easy-grid is a React component factory that provides a declarative layout mechanism for utilizing [CSS grid layouts](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout). It uses ASCII layout descriptions to generate layout components that arrange child components according to the defined grid.
+JavaScript is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. Over 97% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries.All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.
+
+JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard.It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM).
+
+The ECMAScript standard does not include any input/output (I/O), such as networking, storage, or graphics facilities. In practice, the web browser or other runtime system provides JavaScript APIs for I/O.
+
+JavaScript engines were originally used only in web browsers, but are now core components of some servers and a variety of applications. The most popular runtime system for this usage is Node.js.
+
+Although Java and JavaScript are similar in name, syntax, and respective standard libraries, the two languages are distinct and differ greatly in design.
 
 <table>
 	<thead>
 		<td>
-			<b>Code</b>
+			<b>SUMMARY</b>
 		</td>
 		<td>
-			<b>Rendered</b>
+			<b>SUMMARY</b>
 		</td>
 	</thead>
 	<tr>
@@ -22,10 +30,10 @@ easy-grid is a React component factory that provides a declarative layout mechan
 	</tr>
 	<tr>
 		<td>
-			<img width="381" alt="code-two" src="https://user-images.githubusercontent.com/208079/32584274-5123d4ac-c4ac-11e7-85c0-66ce58c5ef01.png">
+			<img width="381" alt="code-two" src="https://qph.fs.quoracdn.net/main-qimg-c19c4dc3d351da791a2ae539d9134401-pjlq">
 		</td>
 		<td>
-			<img width="307" alt="render-two" src="https://user-images.githubusercontent.com/208079/32584277-539e76ec-c4ac-11e7-9f1a-067b50a7d71f.png">
+			<img width="307" alt="render-two" src="https://www.bigocheatsheet.com/img/big-o-cheat-sheet-poster.png">
 		</td>
 	</tr>
 </table>
