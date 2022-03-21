@@ -1,4 +1,5 @@
-1. Map
+## Map
+
  **Function** | **Syntax** | **Return Value** | **Invalid Case** | **Runtime**
 ---------- |---------- |-----------|----------- | ----------- |
 Create |	map = new Map()	the map		

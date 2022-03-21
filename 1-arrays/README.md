@@ -8,8 +8,7 @@ What's an Array? The way I visualize it is a table. Below is an example of how a
 2	|this could be useful for storing data that are required to be ordered, such as rankings or queues
 3   |in JavaScript, array's value could be mixed; meaning value of each index could be of different data, be it String, Number or even Objects
 
- **Function** | **Syntax** | **Return Value** | **Invalid Case** | **Runtime**
-----------|:----------:|-----------|----------- | ----------- |
+ 
 Create |	array = [] |	null		
 Pop	|array.pop()	|popped element|	return undefined if empty|	O( 1 )
 Push|	array.push(10)|	new length of the array	|	|O( 1 )
