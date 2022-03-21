@@ -1,3 +1,32 @@
+
+<table>
+	<thead>
+		<td>
+			<b>SUMMARY</b>
+		</td>
+		<td>
+			<b>SUMMARY</b>
+		</td>
+	</thead>
+	<tr>
+		<td>
+			<img width="289" alt="code-one" src="https://jrsinclair.com/assets/javascript-array-methods-cheat-sheet-front.png">
+		</td>
+		<td>
+			<img width="306" alt="render-one" src="https://www.tutsmake.com/wp-content/uploads/2019/03/JavaScript-Array-Methods.jpeg">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<img width="381" alt="code-two" src="https://i.pinimg.com/originals/b3/00/1a/b3001a273cd8b05f31c0b1b240c545aa.jpg">
+		</td>
+		<td>
+			<img width="307" alt="render-two" src="https://res.cloudinary.com/practicaldev/image/fetch/s--DN-mWuTY--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://cdn-images-1.medium.com/max/599/1%2ADOwBN5p5bCJ5ZKKRiKQCgg.png">
+		</td>
+	</tr>
+</table>
+
+
 1. Arrays
 What's an Array? The way I visualize it is a table. Below is an example of how an array would look like.
 
@@ -42,30 +71,5 @@ array.forEach((val, index) => { // Note it's value-first, not index-first
 //Methods to know
 array.splice() - modifies array in-place.
 
-array.slice() - returns copy of array, original array is not modified<table>
-	<thead>
-		<td>
-			<b>SUMMARY</b>
-		</td>
-		<td>
-			<b>SUMMARY</b>
-		</td>
-	</thead>
-	<tr>
-		<td>
-			<img width="289" alt="code-one" src="https://jrsinclair.com/assets/javascript-array-methods-cheat-sheet-front.png">
-		</td>
-		<td>
-			<img width="306" alt="render-one" src="https://www.tutsmake.com/wp-content/uploads/2019/03/JavaScript-Array-Methods.jpeg">
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<img width="381" alt="code-two" src="https://i.pinimg.com/originals/b3/00/1a/b3001a273cd8b05f31c0b1b240c545aa.jpg">
-		</td>
-		<td>
-			<img width="307" alt="render-two" src="https://res.cloudinary.com/practicaldev/image/fetch/s--DN-mWuTY--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://cdn-images-1.medium.com/max/599/1%2ADOwBN5p5bCJ5ZKKRiKQCgg.png">
-		</td>
-	</tr>
-</table>
+array.slice() - returns copy of array, original array is not modified
 
