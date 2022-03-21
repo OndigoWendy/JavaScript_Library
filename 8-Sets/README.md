@@ -1,6 +1,6 @@
 ## Set
 
-Function	Syntax	Return value	Invalid Case	Runtime
+
 **Function** | **Syntax** | **Return Value** | **Invalid Case** | **Runtime**
 ---------- |---------- |-----------|----------- | ----------- |
 Create|	set = new Set()			
