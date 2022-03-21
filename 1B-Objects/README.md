@@ -3,9 +3,9 @@
 		<td>
 			<b>SUMMARY</b>
 		</td>
-		<td>
+		<!-- <td>
 			<b>SUMMARY</b>
-		</td>
+		</td> -->
 	</thead>
 	<tr>
 		<td>

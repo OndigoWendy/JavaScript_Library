@@ -1,5 +1,35 @@
 ## Map
 
+<table>
+	<thead>
+		<td>
+			<b>SUMMARY</b>
+		</td>
+		<td>
+			<b>SUMMARY</b>
+		</td>
+	</thead>
+	<tr>
+		<td>
+			<img width="289" alt="code-one" src="https://www.freecodecamp.org/news/content/images/2021/03/javascript-map-function.png">
+		</td>
+		<td>
+			<img width="306" alt="render-one" src="https://i.morioh.com/210422/a97b0da0.webp">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<img width="381" alt="code-two" src="https://atendesigngroup.com/sites/default/files/array-map.png">
+		</td>
+		<td>
+			<img width="307" alt="render-two" src="https://miro.medium.com/max/1400/1*BkcYRGvVCLfOBYqDP2SBXg.png">
+		</td>
+	</tr>
+</table>
+
+
+
+
  **Function** | **Syntax** | **Return Value** | **Invalid Case** | **Runtime**
 ---------- |---------- |-----------|----------- | ----------- |
 Create |	map = new Map() |	the map		
