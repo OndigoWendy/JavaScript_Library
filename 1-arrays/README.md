@@ -6,3 +6,9 @@ index	value
 1	the index of an array runs in sequence
 2	this could be useful for storing data that are required to be ordered, such as rankings or queues
 3	in JavaScript, array's value could be mixed; meaning value of each index could be of different data, be it String, Number or even Objects
+
+
+### Behaviour Driven Development
+| This Program should handle                       | Input example | Output example                                   |
+|:-----------------------------------------------|---------------|--------------------------------------------------|
+Prompt user to enter inputs| Wildlide sighting detail eg name and location  |List of rangers and sightings.
