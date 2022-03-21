@@ -41,7 +41,7 @@ You can search for an element, insert into a tree, and much more.
 
 There is a root node and its value, a leftChild, and a rightChild.
 
-* Searching for a Node by Key:
+## Searching for a Node by Key:
 Here are the steps for searching for the node:
 * start at the root, and check if the root is equal to the key or null. If true, return root.
 * If the key is less than the root, call a recursive function on the leftChild to search it
