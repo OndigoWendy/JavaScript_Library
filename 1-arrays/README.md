@@ -20,3 +20,26 @@ Index Of|	array.indexOf(element => element > 5)|	The index of the first element 
 Filter|	array.filter(element => element > 5)	|A new array with matched elements|	Empty array if no match|	O( N )
 Size|	array.length|	Number of elements	
 
+## Iteration
+
+```bash
+// array.values()
+for (const val of array.values())
+
+// array.entries()
+for (const [index, val] of array.entries())
+
+// array.forEach()
+array.forEach(val => val * 2)
+
+// array.forEach()
+
+array.forEach((val, index) => { // Note it's value-first, not index-first
+  console.log(`${index}: ${val}`)
+})
+
+
+//Methods to know
+array.splice() - modifies array in-place.
+
+array.slice() - returns copy of array, original array is not modified
