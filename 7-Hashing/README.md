@@ -1,5 +1,5 @@
-Hashing/Hash Table
-What is it?
+## Hashing/Hash Table
+
 Hashing is a way to map elements to a table of values for easier access. A hashing function is used to map values. The function below is taking the remainder of dividing the number by 10. With this hash function, there will only be a few elements[0–9] in the hash table, with each referencing a list of elements.
 
 <table>
