@@ -38,84 +38,9 @@ Although Java and JavaScript are similar in name, syntax, and respective standar
 	</tr>
 </table>
 
-## Getting Started
 
-### Prerequisites
+ 
 
-Make sure you have the [npm package manager](https://www.npmjs.com/get-npm) installed on your development machine.
-
-### Installing
-
-Clone the git repository to a local directory:
-
-```
-git clone git@github.com:google/easy-grid.git
-cd easy-grid
-```
-
-Run `npm install` and then run the examples:
-
-```
-npm install
-npm run examples
-```
-
-This will start a browser pointing at 'index.html' in the [examples subdirectory](https://github.com/google/easy-grid/tree/master/examples).
-
-To play around with the library, make changes to the [examples.js](https://github.com/google/easy-grid/blob/master/examples/examples.js) React app and re-run `npm run examples`.
-
-
-## Running the tests
-
-```
-npm test
-```
-
-## Deployment
-
-To use the library in a production environment, simply run:
-
-```
-npm install --save easy-grid
-```
-
-## Importing
-easy-grid exports a `grid` factory method:
-
-```javascript
-import grid from 'easy-grid';
-```
-
-### Emotion
-
-To use with [emotion][]
-
-```javascript
-import grid from 'easy-grid/emotion';
-```
-
-## Usage
-The exported `grid` method is used to create layout components based on an ASCII representations of the desired layout grid. For instance:
-
-~~~javascript
-const TwoByTwoLayout = grid`
-    1fr   1fr
-1fr A     A,B
-1fr A     A,B
-`
-~~~
-defines a React component, TwoByTwoLayout, that will distribute it's child elements along a two by two grid. element "A" will take up the entire grid, while element "B" will overlap element "A" and take up the right half of the grid. The two rows will each have the same height, namely half the height of the parent element. Likewise, the two columns will each have the same width, or half the width of the parent component.
-
-### Grid Definition Syntax
-Grids are defined by a back-tick ``` ` ``` string. Spaces and new-lines are non-trivial as they are used to parse the grid definition from the string.
-
-Row and column header definitions use the syntax defined for [grid-template-rows](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows):
-
- **Type** | **Syntax** | **Usage** |
-----------|:----------:|-----------|
-*Flex* | *n*fr | Using a [flex-value](https://developer.mozilla.org/en-US/docs/Web/CSS/flex_value) allows rows and columns to be defined by distributing space proportionally between them. |
-*Percentage* | *n*% | [Percentage values](https://developer.mozilla.org/en-US/docs/Web/CSS/percentage) define the size of a column or row relative to its parent container. |
-*Length* | *n*px, *n*em, etc. | All standard [length values](https://developer.mozilla.org/en-US/docs/Web/CSS/length) can be used to give rows or columns fixed heights and widths respectively. |
 
 
 #### Column Headers
