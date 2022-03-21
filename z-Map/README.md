@@ -1,6 +1,6 @@
 1. Map
  **Function** | **Syntax** | **Return Value** | **Invalid Case** | **Runtime**
-----------|:----------:|-----------|----------- | ----------- |
+---------- |---------- |-----------|----------- | ----------- |
 Create |	map = new Map()	the map		
 Add / Update|	map.set('key', 'val')|	the map object|		O( 1 )
 Get|	map.get('key') |	the value of key|	return undefined if key not found	|O( 1 )
