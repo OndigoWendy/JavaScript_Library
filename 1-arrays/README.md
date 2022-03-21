@@ -1,9 +1,8 @@
 1. Arrays
 What's an Array? The way I visualize it is a table. Below is an example of how an array would look like.
 
-**Function** | **Syntax** | 
+**Index** | **Value** | 
 ----------|:----------:|
-index |	value
 0	|this is the first value, stored at zero position
 1	|the index of an array runs in sequence
 2	|this could be useful for storing data that are required to be ordered, such as rankings or queues
